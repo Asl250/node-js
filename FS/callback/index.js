@@ -79,3 +79,13 @@ import * as fs from "fs"
 // 		console.log(err)
 // 	}
 // })
+
+
+//chmod
+fs.chmod('c:\\nodejs\\hello.txt', 100, (err) => {
+	if (!err) {
+		console.log("File ichiga data qoshildi")
+	} else {
+		console.log(err)
+	}
+})
