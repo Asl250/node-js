@@ -74,13 +74,13 @@ import * as fs from "fs/promises"
 
 //Malumot olish or Get information about file
 
-try {
-	const stats = await fs.stat('c:\\nodejs\\hello.txt')
-	// console.log(stats)
-	console.log(stats.isFile())
-	console.log(stats.isDirectory())
-}
-
-catch (error) {
-	console.log(error)
-}
+// try {
+// 	const stats = await fs.stat('c:\\nodejs\\hello.txt')
+// 	// console.log(stats)
+// 	console.log(stats.isFile())
+// 	console.log(stats.isDirectory())
+// }
+//
+// catch (error) {
+// 	console.log(error)
+// }
