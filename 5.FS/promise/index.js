@@ -64,23 +64,22 @@ import * as fs from "fs/promises"
 
 //Nusxa olish or Copy file
 
-// try {
-//     await fs.copyFile('c:\\nodejs\\hello.txt', 'c:\\nodejs\\copiedHello.txt')
-//     console.log("File nusxa olindi")
-// }
-// catch (error) {
-//     console.log(error)
-// }
+try {
+    await fs.copyFile('c:\\nodejs\\hello.txt', 'c:\\nodejs\\copiedHello.txt')
+    console.log("File nusxa olindi")
+}
+catch (error) {
+    console.log(error)
+}
 
 //Malumot olish or Get information about file
 
-// try {
-// 	const stats = await fs.stat('c:\\nodejs\\hello.txt')
-// 	// console.log(stats)
-// 	console.log(stats.isFile())
-// 	console.log(stats.isDirectory())
-// }
-//
-// catch (error) {
-// 	console.log(error)
-// }
+try {
+	const stats = await fs.stat('c:\\nodejs\\hello.txt')
+	console.log(stats)
+	console.log(stats.isFile())
+	console.log(stats.isDirectory())
+}
+catch (error) {
+	console.log(error)
+}
