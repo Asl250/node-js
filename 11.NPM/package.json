@@ -1,0 +1,25 @@
+{
+  "name": "11.-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asl250/nodejs.git"
+  },
+  "author": "ASK250",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Asl250/node-js/issues"
+  },
+  "homepage": "https://github.com/Asl250/node-js#readme",
+  "description": ""
+}

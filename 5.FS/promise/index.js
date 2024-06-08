@@ -65,7 +65,7 @@ import * as fs from "fs/promises"
 //Nusxa olish or Copy file
 
 try {
-    await fs.copyFile('c:\\nodejs\\hello.txt', 'c:\\nodejs\\copiedHello.txt')
+    await fs.copyFile   ('c:\\nodejs\\hello.txt', 'c:\\nodejs\\copiedHello.txt')
     console.log("File nusxa olindi")
 }
 catch (error) {

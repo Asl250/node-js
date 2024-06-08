@@ -39,7 +39,6 @@ import * as fs from "fs"
 
 
 //File ichidagi datani oqish
-
 // fs.readFile('c:\\nodejs\\hello.txt', (err, data) => {
 // 	if (!err) {
 // 		console.log(data.toString())
@@ -82,10 +81,10 @@ import * as fs from "fs"
 
 
 //chmod
-fs.chmod('c:\\nodejs\\hello.txt', 100, (err) => {
-	if (!err) {
-		console.log("File ichiga data qoshildi")
-	} else {
-		console.log(err)
-	}
-})
+// fs.chmod('c:\\nodejs\\hello.txt', 100, (err) => {
+// 	if (!err) {
+// 		console.log("File ichiga data qoshildi")
+// 	} else {
+// 		console.log(err)
+// 	}
+// })

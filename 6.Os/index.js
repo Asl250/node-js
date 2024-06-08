@@ -3,6 +3,7 @@ import os from 'os'
 // os korish uchun
 // console.log(os.platform())
 // os arxitekturasini korish
+// console.log(os.arch())
 // komp xarakteristikasini korish
 // console.log(os.cpus())
 // komp nomini korish
